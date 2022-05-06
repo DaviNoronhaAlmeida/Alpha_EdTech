@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+	<title>Novo Projeto</title>
+	<defs>
+		<image  width="300" height="300" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAACJJREFUeJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAHgZLbQAAWZ0M2QAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffff00 } 
+		.s1 { fill: #00ffff } 
+		.s2 { fill: #ffffff } 
+		.s3 { fill: #000000 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<ellipse id="Forma 1" class="s0" cx="162.5" cy="170" rx="67.5" ry="69"/>
+	<ellipse id="Forma 2" class="s1" cx="162" cy="76.5" rx="73" ry="12.5"/>
+	<ellipse id="Forma 3" class="s2" cx="163.5" cy="75.5" rx="42.5" ry="4.5"/>
+	<ellipse id="Forma 4" class="s2" cx="142" cy="152.5" rx="8" ry="14.5"/>
+	<ellipse id="Forma 5" class="s2" cx="185" cy="152.5" rx="7" ry="13.5"/>
+	<path id="Forma 6" class="s3" d="m162.2 178.2l9.6 8.8-9.6 8.8z"/>
+	<ellipse id="Forma 7" class="s3" cx="146" cy="155" rx="4" ry="5"/>
+	<path id="Forma 8" class="s3" d="m190 159c-2.2 0-4-2-4-4.5 0-2.5 1.8-4.5 4-4.5 2.2 0 4 2 4 4.5 0 2.5-1.8 4.5-4 4.5zm-49.1 46.4l0.2-1 42 5-0.2 1z"/>
+</svg>
