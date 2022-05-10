@@ -1,0 +1,43 @@
+#section1 {
+    color: red;
+}
+
+.divclass {
+    color: green;
+}
+
+p[sfv="5"] {
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: green;
+}
+
+.pclass::first-line {
+      color: purple;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main article {
+    background-color: aqua;
+}
+
+div>h2 {
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span+p {
+    background-color: cornflowerblue;
+}
+
+h1~h3 {
+    color: darkorchid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
