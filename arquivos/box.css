@@ -1,0 +1,72 @@
+.box {
+    border: 10px black solid;
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin: 50px 25px;
+}
+
+.box2 {
+    border: 10px rgb(185, 56, 164) solid;
+    width: 300px;
+    height: 300px;
+    padding: 25px 50px 20px 15px;
+    margin: 50px;
+}
+
+#sec {
+    display: flex;
+}
+
+.overflow {
+    border: 3px rgb(46, 155, 51) solid;
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow: visible;
+    display: inline-block;
+}
+
+.overflow2 {
+    border: 3px rgb(46, 155, 51) solid;
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.overflow3 {
+    border: 3px rgb(46, 155, 51) solid;
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow-x: scroll;
+    display: inline-block;
+}
+
+.overflow4 {
+    border: 3px rgb(46, 155, 51) solid;
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+.overflow5 {
+    border: 3px rgb(46, 155, 51) solid;
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow: auto;
+    display: inline-block;
+}
