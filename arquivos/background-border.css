@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+#solid {
+    background-color: aquamarine;
+}
+
+#solidtr {
+    background-color: rgba(35, 168, 18, 0.164);
+}
+
+#solidgrad {
+    background: linear-gradient(to right, white, black ) ;
+}
+
+#solidgradv {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, darkblue, violet) ;
+}
+
+#img {
+    background-image: url(./exemplo.jpg) ;
+    background-repeat: no-repeat ;
+    height: 100px ;
+    border: solid 1px black;
+    padding-left: 5px;
+}
+
+#imgr {
+    background-image: url(./exemplo.jpg) ;
+    background-repeat: repeat ;
+    height: 250px ;
+    border: solid 1px black;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+#bordas {
+    display: flex;
+}
+
+.borda {
+    border: dashed black;
+    width: 100px;
+    padding-left: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.borda2 {
+    border: hidden 2px purple;
+    width: 100px;
+    padding-left: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.borda3 {
+    border: groove 10px purple;
+    width: 100px;
+    padding-left: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.borda4 {
+    width: 100px;
+    padding-left: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid 2px blueviolet;
+}
+
+.borda5 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 3px rgb(230, 72, 51);
+    text-align: center;
+}
+
+#imgcircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 10px 10px purple;
+}
