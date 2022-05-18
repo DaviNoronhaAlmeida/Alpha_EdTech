@@ -1,0 +1,27 @@
+#hx {
+    background-color: #ff94ff;
+}
+
+#hxt {
+    background-color: #85ff4180;
+}
+
+#rgb {
+    background-color: rgb(68, 207, 207);
+}
+
+#rgba {
+    background-color: rgba(255, 251, 0, 0.507);
+}
+
+#hsl {
+    background-color: hsl(39, 100%, 59%);
+}
+
+#hsla {
+    background-color: hsla(0, 100%, 58%, 0.589);
+}
+
+#cb {
+    background-color: darkslateblue;
+}
