@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: #3c4547;
+}
+
+/* estilização da barra fixa */
+header {
+    display: flex;
+    flex-flow: row wrap ;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 18vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    z-index: 1;
+}
+
+#carticon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+}
+
+#carticon:hover {
+    cursor: pointer;
+}
+
+#name {
+    font-size: 30px;
+    margin-left: 13vw;
+    position: relative;
+    top: -10px;
+    font-family: pacifica, fantasy;
+    letter-spacing: 0.2em;
+    color: #3182b5;
+}
+
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 450px;
+    margin-right: 13vw;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(131,177,206);
+    font-family: nimbus-san;
+}
+
+#navbar > a:hover {
+    color: #3182b5;
+}
+
+/* estilização da parte inicial da página index */
+
+#init {
+    display: flex;
+    width: 100%;
+    height: 110.5vh;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+}
+
+#phrase {
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    font-family: pacifica, fantasy;
+    font-size: 100px;
+    width: 50%;
+    margin-top: 39vh;
+    font-weight: bold;
+    padding-left: 1vw;
+    position: relative;
+}
+
+#img {
+    width: 50%;
+}
+
+#button1 {
+    position: absolute;
+    top: 46vh;
+}
+
+.button {
+    width: 135px;
+    height: 37px;
+    background-color: #215779;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.button:hover {
+    background-color: rgb(16,43,60);
+    animation: button 400ms;  
+}
+/* animação para mudar de cor gradualmente */
+@keyframes button {
+    0% {
+        background-color: #215779;
+    }
+    100% {
+        background-color: rgb(16,43,60);
+    }
+}
+
+/* texto da segunda section */
+#middle {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 92vh;
+}
+
+#text {
+    width: 56%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#tittle {
+    font-size: 20px;
+    margin-top: 32vh;
+}
+
+#middletext {
+    margin-top: 6vh;
+    margin-left: 5vw;
+    width: 48vw;
+    line-height: 1.5em;
+}
+
+#button2 {
+    position: relative;
+    top: 8vh;
+    left: 23vw;
+}
+
+/* animação para mudar o fundo */
+#background-change {
+    width: 44%;
+    margin-top: 5vh;
+    animation: bgimg 18s infinite;
+    background-repeat: no-repeat;
+}
+
+#background-change:hover {
+    cursor: pointer;
+}
+
+@keyframes bgimg {
+    0% {
+        background-image: url(https://static.wixstatic.com/media/9c608a_6f7d2a64868d49aabf085e9c39b8de9f.jpg/v1/fill/w_396,h_552,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9c608a_6f7d2a64868d49aabf085e9c39b8de9f.jpg);
+    }
+    40% {
+        background-image: url(https://static.wixstatic.com/media/9c608a_630a47088e184ce2b09cc860d733b41a.jpg/v1/fill/w_396,h_552,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9c608a_630a47088e184ce2b09cc860d733b41a.jpg);
+    }
+    80% {
+        background-image: url(https://static.wixstatic.com/media/9c608a_926e888ad1f44603b568d27e960b0801.jpg/v1/fill/w_396,h_552,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9c608a_926e888ad1f44603b568d27e960b0801.jpg);
+    }
+    100% {
+        background-image: url(https://static.wixstatic.com/media/9c608a_6f7d2a64868d49aabf085e9c39b8de9f.jpg/v1/fill/w_396,h_552,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9c608a_6f7d2a64868d49aabf085e9c39b8de9f.jpg);
+    }
+}
+
+/* botão fixo */
+#buttonfixed {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    right: 1.5vw;
+    background-color: rgb(33, 87, 121);
+    color: white;
+    font-family: pacifica, fantasy;
+    font-size: 18px;
+    border: 1px solid rgb(46, 40, 40);
+    border-bottom: 0;
+    width: 19.4vw;
+    height: 8.67vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+#buttonfixed:hover {
+    cursor: pointer;
+}
+
+/* estilização da terceira seção */
+#video {
+    background-image: url("https://static.wixstatic.com/media/84770f_55393df7d6134c138d56112b4edc0c80~mv2.png/v1/crop/x_0,y_0,w_517,h_309,q_85,enc_auto/84770f_55393df7d6134c138d56112b4edc0c80~mv2.png");
+    width: 100%;
+}
+
+#tittle2 {
+    color: white;
+    font-family: pacifica, fantasy;
+    font-size: 100px;
+    font-weight: 900;
+    padding-top: 12vh;
+    margin: auto;
+    width: 45vw;
+    text-align: center;
+}
+
+.bar {
+    background-color: rgb(33,87,121);
+    height: 1.5vh;
+    width: 7.5vw;
+    margin: 6vh auto 7.5vh;
+}
+
+#player {
+    margin-left: 26vw;
+}
+
+/* responsividade */
+@media ( max-width: 815px ) {
+    #player {
+        margin-left: 2vw;
+        max-width: 95vw;
+    }
+    #navbar {
+       margin-left: 14vw;
+    }
+    #name {
+        margin-top: 2vh;
+        margin-left: 37vw;
+    }
+    #phrase {
+        position: relative;
+        left: -30vw;
+        top: 10vh;
+    }
+    #tittle2 {
+        margin-left: 20vw;
+    }
+    #buttonfixed {
+        font-size: 14px;
+    }
+}
+
+/* containeres de informação */
+.informationstittle {
+    color: #959596;
+    letter-spacing: 0.1em;
+    font-size: 19px;
+}
+
+.informationstext {
+    color: #959596;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 4vw;
+}
+
+.textcontainer {
+    margin-left: 1vw;
+    padding-top: 0.5vh;  
+}
+
+#informations {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 11vw;
+}
+
+/* menu de contato */
+#tittle3 {
+    color: #215779;
+    font-family: pacifica, fantasy;
+    font-size: 100px;
+    font-weight: 900;
+    padding-top: 12vh;
+    margin: auto;
+    width: 45vw;
+    text-align: center;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: 1px solid rgb(33,87,121);
+    padding: 3px 3px 3px 24px;
+    height: 5vh;   
+    width: 27vw;
+    margin-bottom: 1vh;
+    font-family: nimbus-san;
+    color: rgb(33,87,121);
+}
+
+textarea {
+    resize: none;
+    border: 1px solid rgb(33,87,121);
+    padding: 3px 3px 3px 25px;
+    height: 17vh;
+    width: 25vw;
+    margin-left: 0.4vw;
+}
+
+input::placeholder {
+    color: rgb(33,87,121);
+    font-size: 15px;
+}
+
+textarea::placeholder {
+    color: rgb(33,87,121);
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 22.5vw;
+}
+
+form > button {
+    position: relative;
+    width: 7.7vw;
+    height: 5.1vh;
+    top: 17.8vh;
+    left: -7.7vw;
+    border-radius: 0;
+    color: white;
+    background-color: #3182b5;
+    border: 0;
+}
+
+form > button:hover {
+    cursor: pointer;
+    background-color: #3182b594;
+    animation: button2 400ms;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@keyframes button2 {
+    0% {
+        background-color: #3182b5;
+    }
+    100% {
+        background-color: #3182b594;
+    }
+}
+
+article > img {
+    position: relative;
+    left: 48vw;
+    top: 10vh;
+}
+
+#contact {
+    text-align: center;
+    margin: 17vh auto auto auto;
+    width: 51.1vw;
+}
+
+#tittlecontact {
+    font-size: 20px;
+}
+
+#middlecontact {
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#companycontact {
+    margin-bottom: 4vh;
+}
+
+#button3 {
+    position: absolute;
+    top: 121vh;
+    left: 44.3vw;
+}
+
+article {
+ position: relative;
+}
+
+/* estilização do footer */ 
+#footer {
+    background-color: black;
+    margin-top: 15vh;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    min-height: 18.3vh;
+}
+
+.textfooter {
+    width: 37vw;
+    margin-left: 14vw;
+    padding-top: 1vh;
+}
+
+#textfooter1 {
+    padding-top: 3vh;
+}
+
+#textfooter1 > a {
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+#mail {
+    color: white;
+    font-family:'Open Sans', sans-serif;
+}
+
+#iconsfooter {
+    position: absolute;
+    right: 15vw;
+    top: 488.5vh;
+}
