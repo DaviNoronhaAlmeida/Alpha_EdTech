@@ -1,0 +1,55 @@
+/* estilização da barra fixa */
+header {
+    display: flex;
+    flex-flow: row wrap ;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 18vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    z-index: 1;
+}
+
+#carticon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+}
+
+#carticon:hover {
+    cursor: pointer;
+}
+
+#name {
+    font-size: 30px;
+    margin-left: 13vw;
+    position: relative;
+    top: -10px;
+    font-family: pacifica, fantasy;
+    letter-spacing: 0.2em;
+    color: #3182b5;
+}
+
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 450px;
+    margin-right: 13vw;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(131,177,206);
+    font-family: nimbus-san;
+}
+
+#navbar > a:hover {
+    color: #3182b5;
+}

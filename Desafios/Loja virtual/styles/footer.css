@@ -1,0 +1,37 @@
+/* estilização do footer */ 
+#footer {
+    background-color: black;
+    margin-top: 15vh;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    min-height: 18.3vh;
+}
+
+.textfooter {
+    width: 37vw;
+    margin-left: 14vw;
+    padding-top: 1vh;
+}
+
+#textfooter1 {
+    padding-top: 3vh;
+}
+
+#textfooter1 > a {
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+#mail {
+    color: white;
+    font-family:'Open Sans', sans-serif;
+}
+
+#iconsfooter {
+    position: absolute;
+    right: 15vw;
+    top: 488.5vh;
+}
