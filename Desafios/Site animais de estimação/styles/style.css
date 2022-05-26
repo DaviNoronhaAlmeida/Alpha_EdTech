@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #357299;
+    background-color: rgb(239,228,194);
+    font-family: 'Basic', sans-serif;
+}
+
+/* estilização da parte inicial do conteudo do site */
+.slogan {
+    background-color: white;
+    font-size: 43px;
+    margin-bottom: 1vh;
+    padding-left: 10px;
+}
+
+#slogan1 {
+    width: 35vw;
+    margin-top: 10vh;
+}
+
+#slogan2 {
+    width: 42vw;
+}
+
+#slogan3 {
+    width: 33vw;
+}
+
+#backgroundimage {
+    background-image: url(https://static.wixstatic.com/media/41d000_e4b9806a75b61053f1d6d4ccab8903df.png/v1/fill/w_1176,h_414,al_c,lg_1,q_90,enc_auto/41d000_e4b9806a75b61053f1d6d4ccab8903df.png);
+    width: 72.4vw;
+    height: 63vh;
+    background-repeat: no-repeat;
+    margin-left: 13vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#schedule {
+    font-size: 26px;
+    background-color: white;
+    width: 38vw;
+    padding: 1vh;
+}
+
+#line2 {
+    height: 2px;
+    width: 72.4vw;
+    background-color: white;
+    margin-left: 13vw;
+    margin-top: 0;
+}

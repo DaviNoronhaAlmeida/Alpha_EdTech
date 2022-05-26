@@ -1,0 +1,133 @@
+#cards {
+    margin-left: 13vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#card1 {
+    margin-left: 0;
+    background-color: #357299;
+    height: 250px;
+    width: 315px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#txt1 {
+    font-size: 26px;
+    position: relative;
+    top: 28px;
+}
+
+.txt2 {
+    font-size: 54px;
+    margin-right: 60px;
+    margin-left: 60px;
+    position: relative;
+    top: 23px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 13px;
+    color: #357299;
+    background-color: white;
+    padding: 1.4vh 7.5vw;
+}
+
+.button:hover {
+    color: rgb(118,189,74);
+}
+
+#button1 {
+    position: relative;
+    top: 40px;
+}
+
+#card1::after {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    bottom: -16px;
+    left: 142px;
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-top-color: #357299;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: #357299;
+}
+
+#card1::before {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    bottom: -16px;
+    left: 158px;
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-top-color: #357299;
+    border-left-color: #357299;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+#card2 {
+    width: 314px;
+    height: 240px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 1.5vw;
+    text-align: center;
+}
+
+#txt3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 34px;
+}
+
+#txt4 {
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1em;
+    margin-bottom: 35px;
+}
+
+#card3 {
+    background-color: white;
+    width: 319px;
+    height: 249px;
+    margin-left: 1.5vw;
+    text-align: center;
+}
+
+#txt5 {
+    font-size: 71px;
+    margin: 25px 0 0 0;
+}
+
+#txt6 {
+    font-size: 26px;
+    color: #76bd4a;
+    margin: 0;
+}
+
+#txt7 {
+    font-size: 45px;
+    margin: 0;
+}
+
+#line3 {
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin-top: 15px;
+}

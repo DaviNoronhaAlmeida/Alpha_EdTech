@@ -1,0 +1,75 @@
+/* estilização da logo */
+#shopname {
+    color: #76bd4a;
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shopnumber {
+    font-size: 13px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#number {
+    position: absolute;
+    top: 23vh;
+    left: 13.5vw;
+}
+
+#shoplogo {
+    position: relative;
+    width: 21vw;
+    margin-left: 13vw;
+}
+
+/* menu de navegação */
+#navbar {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 18.5vh;
+    right: 12.7vw;
+}
+
+li > a {
+    text-decoration: none;
+    background-color: white;
+    color: #357299;
+    padding: 1.9vh 2.2vw;
+    font-family: 'Basic', sans-serif;
+    font-size: 13px;
+    border-right: 1px solid white;
+}
+
+li > a:hover {
+    color: white;
+    background-color: #357299;
+    animation: hover 500ms;
+}
+
+@keyframes hover {
+    0% {
+        background-color: white;
+        color: #357299;
+    }
+    100% {
+        color: white;
+        background-color: #357299;
+    }
+}
+
+#activelink {
+    color: white;
+    background-color: #357299;
+}
+
+#line {
+    height: 2px;
+    width: 72.4vw;
+    background-color: white;
+    margin-left: 13vw;
+    margin-top: 10px;
+}
