@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #86cccc;
+    height: 83px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+    margin-top: 280px;
+}
+
+#namefooter {
+    font-family: 'Niconne', cursive;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#copyright {
+    color: white;
+    font-size: 12px;
+}
+
+#copyright > a {
+    color: white;
+}

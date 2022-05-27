@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url('../assets/background-image.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Overlock', cursive;
+}
+
+#worktime {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 298px;
+    height: 227.2px;
+    margin-top: 9vh;
+    margin-left: 64.2vw;
+    border: 1px solid rgb(144,112,87);
+    border-bottom: 0;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    gap: 20px;
+}
+
+.hour {
+    color: #6b3b17;
+    font-size: 16px;
+}
+
+#tittle {
+    color: #0fa8a1;
+    font-size: 16px;
+}
+
+.faixa2 {
+    height: 2px;
+    background-color: #86cccc;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+#socialmedia {
+    display: flex;
+    background-color: #86cccc;
+    color: white;
+    height: 66px;
+    width: 298px;
+    margin-left: 64.2vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 22px;
+}
+
+#fb-icon {
+    margin-right: 10px;
+}
+
+#socialmedia::after {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    bottom: -10px;
+    left: 127px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-top-color: #86cccc;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: #86cccc;
+}
+
+#socialmedia::before {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    bottom: -10px;
+    left: 147px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-top-color: #86cccc;
+    border-left-color: #86cccc;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+hr {
+    width: 100px;
+    color: #86cccc;
+}
+
+#line {
+    display: flex;
+    flex: 1;
+}
+
+hr {
+    width: 90px;
+    height: 1px;
+    border-color: #86cccc;
+    margin-top: 10px;
+}
+
+#hr1 {
+    margin-left: 42px;
+    margin-right: 16px;
+}
+
+#hr2 {
+    margin-left: 16px;
+    margin-right: 42px;
+}
