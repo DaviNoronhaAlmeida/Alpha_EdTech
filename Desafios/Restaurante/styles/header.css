@@ -77,15 +77,16 @@ header {
 }
 
 #hiddenitem {
-    display: none;
+    visibility: hidden;
     font-size: 14px;
-}
-
-#hiddenbutton:hover+#hiddenitem, #hiddenitem:hover {
-    display: flex;
     position: absolute;
     top: 130px;
     left: 767px;
+    transition: all 2s;
+}
+
+#hiddenbutton:hover+#hiddenitem, #hiddenitem:hover {
+    visibility: visible;
 }
 
 .navitem a > svg:hover+#user {
