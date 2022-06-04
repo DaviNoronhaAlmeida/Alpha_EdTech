@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dias para morte</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Dias para morte</h1>
+            <label for="birthday">Data de aniversário:</label>
+            <input type="date" id="birthday" />
+            <fieldset>
+                <legend>Sexo:</legend>
+                <input type="radio" id="radio1" name="gender" value="Masculino"/>
+                <label for="radio1">Masculino</label>
+                <input type="radio" id="radio2" name="gender" value="Feminino"/>
+                <label for="radio2">Feminino</label>
+            </fieldset>
+            <button type="submit">Verificar</button>
+            <div id="result"></div>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

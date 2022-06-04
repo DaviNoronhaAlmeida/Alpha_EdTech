@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(228, 154, 125);
+    border: 5px solid rgb(139, 36, 36);
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 30px;
+    margin: 25px auto 10px auto;
+    background-color: rgb(255, 217, 167);
+}
+
+button {
+    margin: 30px auto; 
+    width: 122px;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(65, 60, 60);
+    border-color: rgb(65, 60, 60);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#result {
+    font-size: 20px;
+}
