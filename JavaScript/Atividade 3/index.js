@@ -5,7 +5,7 @@ function calcular() {
     let n2 = parseFloat(document.querySelector("#n2").value);
     let result = parseFloat();
 
-    if(!window.isNaN(n1) && !window.isNaN(n2) ) {
+    if(!window.isNaN(n1) && !window.isNaN(n2)) {
         switch(document.querySelector("select").value){
             case "add":
                 result = n1 + n2;
