@@ -28,13 +28,7 @@ section {
 }
 
 h1 {
-    font-size: 36px;
-}
-
-.input {
-    margin: 10px;
-    font-family: 'Gentium Plus', serif;
-    font-size: 16px;
+    font-size: 35px;
 }
 
 #result {
