@@ -1,8 +1,5 @@
 for (let i = 0; i < 60; i++) {
     document.getElementById('minutes').innerHTML += "<option>" + i + "</option>";
-}
-
-for (let i = 0; i < 60; i++) {
     document.getElementById('seconds').innerHTML += "<option>" + i + "</option>";
 }
 
