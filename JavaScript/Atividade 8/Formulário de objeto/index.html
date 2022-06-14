@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de objeto</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <h1>Formulário de usuário</h1>
+                <input type="text" placeholder="Nome" id="name" class="input" />
+                <input type="date" placeholder="Data de nascimento" id="birthday" class="input" />
+                <input type="text" placeholder="Peso (Kg)" id="weight" class="input" />
+                <input type="text" placeholder="Altura (cm)" id="height" class="input" />
+                <select id="gender" class="input">
+                    <option hidden selected>Sexo:</option>
+                    <option >Masculino</option>
+                    <option>Feminino</option>
+                </select>
+                <button type="button" id="button">Enviar</button>
+            </form>
+            <div>
+                <p id="result1" class="result"></p>
+                <p id="result2" class="result"></p>
+                <p id="result3" class="result"></p>
+                <p id="result4" class="result"></p>
+                <p id="result5" class="result"></p>
+                <p id="result6" class="result"></p>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
