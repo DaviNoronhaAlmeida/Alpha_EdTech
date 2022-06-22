@@ -40,7 +40,7 @@ function showproducts() {
     while (i < produtos.length) {
         document.querySelector("tbody").innerHTML += `<tr>
             <td>${produtos[i].id}</td>
-            <td>${produtos[i].nome}</td>
+            <td onClick="show(${i})">${produtos[i].nome}</td>
             <td>${produtos[i].valor}</td>
             <td><span class="material-icons" onClick="edit(${i})">edit</span></td>
             <td><span class="material-icons" onClick="erase(${i})">delete</span></td>
@@ -80,4 +80,8 @@ function update(k) {
     document.querySelector("#add").innerHTML = "INCLUIR PRODUTO";
     document.querySelector("#add").value = "";
     showproducts();
+}
+
+function show(l) {
+    alert(`id: ${produtos[l].id}, nome: ${produtos[l].nome}, descrição: ${produtos[l].descricao}, valor: ${produtos[l].valor}`)
 }
