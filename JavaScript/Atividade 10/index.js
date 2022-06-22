@@ -83,5 +83,12 @@ function update(k) {
 }
 
 function show(l) {
-    alert(`id: ${produtos[l].id}, nome: ${produtos[l].nome}, descrição: ${produtos[l].descricao}, valor: ${produtos[l].valor}`)
+    let data = new Date(produtos[l].incluidoEm)
+    let dia = data.getDate();
+    let mes = data.getMonth() + 1;
+    let ano = data.getFullYear();
+    let hora = data.getHours();
+    let minutos = data.getMinutes();
+    let segundos = data.getSeconds();
+    alert(`id: ${produtos[l].id}, nome: ${produtos[l].nome}, descrição: ${produtos[l].descricao}, valor: ${produtos[l].valor}, incluido em: ${dia}/${mes}/${ano} - ${hora}:${minutos}:${segundos}`)
 }
