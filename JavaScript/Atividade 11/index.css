@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20517A;
+    color: #ffff;
+    font-family: 'Nunito', sans-serif;;
+}
+
+#registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E131F;
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: 10px 10px 10px rgb(23, 23, 49);
+    padding: 10px 15px 15px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    resize: none;
+}
+
+.input {
+    background-color: #A3A9AA;
+    width: 270px;
+    margin: 10px;
+}
+
+.input::placeholder {
+    color: #0E131F;
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    background-color: #C41C24;
+    border: none;
+    color: #ffff;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#table {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0E131F;
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: 10px 10px 10px rgb(23, 23, 49);
+    padding: 20px 15px 15px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+   padding: 15px;
+   border: 1px solid #ffff;
+}
+
+td {
+    border: 1px solid #ffff;
+}
+
+span {
+    padding: 3px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+#organizeName:hover {
+    cursor: pointer;
+}
+
+#organizeValue:hover {
+    cursor: pointer;
+}
+
+#search {
+    width: 500px;
+}
+
+#searchButton {
+    width: 45px;
+    height: 30px;
+}
+
+#searchBar {
+    display: flex;
+}
