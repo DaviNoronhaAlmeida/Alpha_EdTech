@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Jogo da Velha</h1>
+            <table>
+                <tr>
+                    <td data-row="A" data-column="0" class="elemento"></td>
+                    <td data-row="A" data-column="1" class="elemento"></td>
+                    <td data-row="A" data-column="2" class="elemento"></td>
+                </tr>
+                <tr>
+                    <td data-row="B" data-column="0" class="elemento"></td>
+                    <td data-row="B" data-column="1" class="elemento"></td>
+                    <td data-row="B" data-column="2" class="elemento"></td>
+                </tr>
+                <tr>
+                    <td data-row="C" data-column="0" class="elemento"></td>
+                    <td data-row="C" data-column="1" class="elemento"></td>
+                    <td data-row="C" data-column="2" class="elemento"></td>
+                </tr>
+            </table>
+            <div id="result"></div>
+            <button id="reset">Reiniciar</button>
+        </section>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
