@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #86cccc;
+    font-family: 'Overlock', cursive;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Niconne', cursive;
+}
+
+p {
+    font-size: 22px;
+}
+
+span {
+    margin: 5px 10px;
+}
+
+span:hover {
+    cursor: pointer;
+    color: white;
+}
