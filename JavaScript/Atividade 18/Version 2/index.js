@@ -27,17 +27,15 @@ async function pullCards() {
 
         const deck = await shuffleDeck();
 
-        // function p() {
+        // function pull() {
         //     return fetch(
         //         `https://deckofcardsapi.com/api/deck/${deck.deck_id}/draw/?count=1`
-        //     ).then((r) => r.json());
+        //     )
+        //         .then((r) => r.json())
+        //         .then((data) => data.cards);
         // }
-        // let c = p();
-        // let d = p();
-        // let e = p();
-        // let f = p();
-        // let g = p();
-        // let cards = await Promise.all([c, d, e, f, g]);
+        // let cards = await Promise.all([pull(), pull(), pull(), pull(), pull()]);
+        // console.log(cards);
 
         let cards = [];
         for (let i = 0; i < 5; i++) {
@@ -48,6 +46,14 @@ async function pullCards() {
         }
         cards = await Promise.all(cards);
         console.log(cards);
+
+        document.querySelector(
+            "#result"
+        ).innerHTML = `<img src="${cards[0].cards[0].image}" />
+        <img src="${cards[1].cards[0].image}" />
+        <img src="${cards[2].cards[0].image}" />
+        <img src="${cards[3].cards[0].image}" />
+        <img src="${cards[4].cards[0].image}" />`;
 
         document.querySelector("#block").getElementsByClassName.display =
             "none";
