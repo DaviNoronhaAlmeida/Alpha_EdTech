@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'kaushan';
-    src: url(../font/kaushanscript-regular-webfont.woff) format('woff');
+    font-family: "kaushan";
+    src: url(../../font/kaushanscript-regular-webfont.woff) format("woff");
     font-style: normal;
     font-weight: 400;
 }
 
 #ol1 {
-    list-style: upper-latin ;
+    list-style: upper-latin;
 }
 
 #ol2 {
@@ -14,27 +14,27 @@
 }
 
 #ol3 {
-    list-style: upper-roman ;
+    list-style: upper-roman;
 }
 
 #ol4 {
-    list-style: none ;
+    list-style: none;
 }
 
 #ul1 {
-    list-style: circle ;
+    list-style: circle;
 }
 
 #ul2 {
-    list-style: disc ;
+    list-style: disc;
 }
 
 #ul3 {
-    list-style: square ;
+    list-style: square;
 }
 
 #ul4 {
-    list-style: none ;
+    list-style: none;
 }
 
 a {
@@ -50,7 +50,7 @@ a:hover {
 }
 
 #a2:focus {
-    color:orange;
+    color: orange;
 }
 
 #a1:active {
@@ -58,11 +58,11 @@ a:hover {
 }
 
 h1 + p {
-    font-family: 'kaushan', sans-serif;
+    font-family: "kaushan", sans-serif;
     font-size: 20px;
 }
 
 h2 + p {
-    font-family: 'Macondo', cursive;
+    font-family: "Macondo", cursive;
     font-size: 20px;
 }

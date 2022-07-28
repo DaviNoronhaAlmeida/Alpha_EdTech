@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Fórmulários">
+    <meta property="og:image" content="https://pluga.co/blog/wp-content/uploads/2017/10/como-elaborar-um-formulario-de-pesquisa.png">
+    <meta property="og:description" content="Exemplo de formulário feito por Davi">
+    <meta property="og:url" content="file:///C:/Users/narut/OneDrive/Documentos/Tags%20HTML/forms.html">
+    <meta property="og:image:alt" content="Imagem ilustrativa de formulário">
+    <title>Document</title>
+</head>
+<body style="background-color: white;">
+    <h2>Formulários</h2>
+    <form method="post">
+        <div>
+            <label for="volume">Volume do site:</label>
+            <input type="range" />
+        </div>
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" required />
+        </div>
+        <div>
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" />
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" />
+        </div>  
+        <div>
+            <label for="data">Data:</label><br>
+            <input type="date" id="data" />
+        </div>   
+        <fieldset> 
+            <legend>Vocês preferem à tarde ou a noite?</legend>
+            <input type="radio" id="radio1" name="escolha" />
+            <label for="radio1">Sim</label><br>
+            <input type="radio" id="radio2" name="escolha" />
+            <label for="radio2">Não</label>
+        </fieldset>
+        <label for="plataforma">Pergunta importante:</label><br>
+        <select id="plataforma">
+            <optgroup label="Plataforma">
+                <option>Playstation</option>
+                <option>XboX</option>
+                <option>PC</option>
+                <option>Nintendo</option>
+            </optgroup>
+        </select>
+        <div>
+            <label for="pq">Por quê?</label>
+            <textarea id="pq" placeholder="Explique-se"></textarea>
+        </div>
+        <fieldset>
+            <legend>Genêros que você gosta de jogos:</legend>
+            <input type="checkbox" id="rpg"/>
+            <label for="rpg">RPG</label><br>
+            <input type="checkbox" id="action"/>
+            <label for="action">Ação</label><br>
+            <input type="checkbox" id="aventura"/>
+            <label for="aventura">Aventura</label><br>
+            <input type="checkbox" id="pz"/>
+            <label for="pz">Puzzle</label><br>
+            <input type="checkbox" id="fps"/>
+            <label for="fps">FPS</label>
+        </fieldset>
+        <button type="submit" style="background-color: rgb(28, 170, 196);">Enviar</button>
+        <button type="reset">Excluir</button>
+    </form>
+</body>
+</html>
